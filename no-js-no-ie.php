@@ -83,3 +83,84 @@ elseif ($_GET['ie']) {
     
 }  else { /* Nothing to do here */ }
 ?>
+
+
+<?php 
+//Then add the following styles to the stylesheet
+?>
+
+<style>
+/*NO JS Styles*/
+.no-js {
+    background-color: #B11D5B;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.no-js .box {
+    width:100%;
+    height:100%;
+    padding:40px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.no-js .box h1 {
+    font-size:30px;
+    color:#fff;
+    margin-top:40px;
+    margin-bottom:20px;
+}
+
+.no-js .box p {
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+}
+
+.no-js .box p a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: underline;
+}
+
+.no-js .box p a:hover {
+    color:#fff;
+}
+
+@media (min-width:768px) {
+    .no-js .box {
+        width:70%;
+        height:50%;
+    }
+}
+
+@media (min-width:992px) {
+    .no-js .box {
+        width:50%;
+        height:65%;
+    }
+}
+
+@media (min-width:1300px) {
+    .no-js .box {
+        width:50%;
+        height:56%;
+    }
+}
+
+@media (min-width:1534px) {
+    .no-js .box {
+        width:50%;
+        height:50%;
+    }
+}
+</style>
