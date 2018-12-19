@@ -14,9 +14,12 @@
 
 function be_menu_item_classes( $classes, $item, $args ) {
 	global $post;
-	if( ( in_category('about') ) && !is_home() && 'Marian' == $item->title || is_singular( 'books' ) && 'Books' == $item->title || is_post_type_archive( 'books' ) && 'Books' == $item->title || is_singular( 'post' ) && !in_category('about') && 'News' == $item->title )
+	if( in_category('about') && !is_home() && 'Marian' == $item->title || 
+        is_singular( 'books' ) && 'Books' == $item->title || 
+        is_post_type_archive( 'books' ) && 'Books' == $item->title || 
+        is_singular( 'post' ) && !in_category('about') && 'News' == $item->title )
+        
 		$classes[] = 'current-menu-item';
-		
 		
 	return array_unique( $classes );
 }
