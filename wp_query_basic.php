@@ -30,6 +30,9 @@ if ( $the_query->have_posts() ) {
 
 //Can put an else statement here to do somehting if no posts are found.
 
+else {
+    /*Nothing*/
+}
 
 //This resets the post data so that $post will work correctly on the page
 wp_reset_postdata();
