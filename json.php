@@ -17,7 +17,7 @@ if ($json_url) {
     if( ! empty( $data ) ) {
         
         //Var_dump json object
-        var_dump($data)
+        var_dump($data);
         
     } else { }
 } else {}
