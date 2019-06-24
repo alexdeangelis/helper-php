@@ -23,7 +23,6 @@ function wp_query_pagination( $custom_query ) {
 }
 
 
-
 //add this above the $args = array( ... ) section of your wp_query
 
 $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;

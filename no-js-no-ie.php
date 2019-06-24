@@ -24,7 +24,7 @@ if (!$_GET['no-js']) { ?>
 
 ?>
 
-<div class="no-js">
+<div class="tf-error">
     <div class="box">
         <img class="pvl-logo pvl-logo-no-js" src="/wp-content/themes/sophiek2018/img/baclk.png" alt="Sophie Kinsella Logo"/>
         <h1>Please enable JavaScript</h1>
@@ -39,7 +39,7 @@ if (!$_GET['no-js']) { ?>
 
 ?>
 
-<div class="no-js">
+<div class="tf-error">
     <div class="box">
         <img class="pvl-logo pvl-logo-no-js" src="/wp-content/themes/sophiek2018/img/baclk.png" alt="Sophie Kinsella Logo"/>
         <h1>Improve your experience</h1>
@@ -91,7 +91,7 @@ elseif ($_GET['ie']) {
 
 <style>
 /*NO JS Styles*/
-.no-js {
+.tf-error {
     background-color: #B11D5B;
     position: absolute;
     top:0;
@@ -102,7 +102,7 @@ elseif ($_GET['ie']) {
     text-align: center;
 }
 
-.no-js .box {
+.tf-error .box {
     width:100%;
     height:100%;
     padding:40px;
@@ -114,51 +114,51 @@ elseif ($_GET['ie']) {
     margin: auto;
 }
 
-.no-js .box h1 {
+.tf-error .box h1 {
     font-size:30px;
     color:#fff;
     margin-top:40px;
     margin-bottom:20px;
 }
 
-.no-js .box p {
+.tf-error .box p {
     font-family: 'Open Sans', sans-serif;
     color:#fff;
 }
 
-.no-js .box p a {
+.tf-error .box p a {
     font-size: inherit;
     color: inherit;
     text-decoration: underline;
 }
 
-.no-js .box p a:hover {
+.tf-error .box p a:hover {
     color:#fff;
 }
 
 @media (min-width:768px) {
-    .no-js .box {
+    .tf-error .box {
         width:70%;
         height:50%;
     }
 }
 
 @media (min-width:992px) {
-    .no-js .box {
+    .tf-error .box {
         width:50%;
         height:65%;
     }
 }
 
 @media (min-width:1300px) {
-    .no-js .box {
+    .tf-error .box {
         width:50%;
         height:56%;
     }
 }
 
 @media (min-width:1534px) {
-    .no-js .box {
+    .tf-error .box {
         width:50%;
         height:50%;
     }
