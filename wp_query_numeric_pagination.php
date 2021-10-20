@@ -19,7 +19,7 @@ function wp_query_pagination( $custom_query ) {
             'current' => $current_page,
             'total' => $total_pages,
         ));
-    }
+    } 
 }
 
 
